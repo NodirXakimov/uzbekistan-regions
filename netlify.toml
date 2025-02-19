@@ -1,11 +1,8 @@
 [build]
-  command = "nuxt build"
-  publish = ".output/public"
-
-[functions]
-  directory = ".output/server"
+  command = "nuxt generate"
+  publish = "dist"
 
 [[redirects]]
   from = "/*"
-  to = "/"
+  to = "/index.html"
   status = 200
