@@ -1,5 +1,5 @@
 [build]
-command = "nuxt build"
+command = "nuxi build"
 publish = ".output/public"
 
 [functions]
