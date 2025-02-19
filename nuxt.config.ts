@@ -8,5 +8,8 @@ export default defineNuxtConfig({
     // https://github.com/nuxt-modules/plausible
     '@nuxtjs/plausible'
   ],
-  compatibilityDate: '2024-10-24'
+  compatibilityDate: '2024-10-24',
+  nitro: {
+    preset: "netlify"
+  }
 })
