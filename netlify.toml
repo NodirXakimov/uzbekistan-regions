@@ -1,8 +1,11 @@
 [build]
-  command = "nuxt generate"
-  publish = "dist"
+command = "nuxt build"
+publish = ".output/public"
+
+[functions]
+directory = ".output/server"
 
 [[redirects]]
-  from = "/*"
-  to = "/index.html"
-  status = 200
+from = "/api/*"
+to = "/.netlify/functions/api/:splat"
+status = 200
