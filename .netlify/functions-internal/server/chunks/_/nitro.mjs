@@ -4412,7 +4412,7 @@ function _expandFromEnv(value) {
 const _inlineRuntimeConfig = {
   "app": {
     "baseURL": "/",
-    "buildId": "2c399b11-ea7c-4df6-80ba-a9fad760bfc1",
+    "buildId": "92b15d80-6d4c-45dc-a44c-01ce85813ebb",
     "buildAssetsDir": "/_nuxt/",
     "cdnURL": ""
   },
@@ -4508,7 +4508,7 @@ const _inlineRuntimeConfig = {
     "content": {
       "locales": [],
       "defaultLocale": "",
-      "integrity": 1739961290301,
+      "integrity": 1739964830214,
       "experimental": {
         "stripQueryParameters": false,
         "advanceQuery": false,
@@ -6372,55 +6372,55 @@ async function dispose(driver) {
 const _assets = {
   ["nitro:bundled:pinceau:index.css"]: {
     import: () => import('../raw/index.mjs').then(r => r.default || r),
-    meta: {"type":"text/css; charset=utf-8","etag":"\"6ac5-4LEdkosUnIZtOaB6S63hpgUbXW4\"","mtime":"2025-02-19T10:35:39.878Z"}
+    meta: {"type":"text/css; charset=utf-8","etag":"\"6ac5-4LEdkosUnIZtOaB6S63hpgUbXW4\"","mtime":"2025-02-19T11:34:40.743Z"}
   },
   ["nitro:bundled:cache:content:content-index.json"]: {
     import: () => import('../raw/content-index.mjs').then(r => r.default || r),
-    meta: {"type":"application/json","etag":"\"250-PKPYtprFrJz6DMRwmDPQzlO4MKk\"","mtime":"2025-02-19T10:35:39.878Z"}
+    meta: {"type":"application/json","etag":"\"250-PKPYtprFrJz6DMRwmDPQzlO4MKk\"","mtime":"2025-02-19T11:34:40.759Z"}
   },
   ["nitro:bundled:cache:content:content-navigation.json"]: {
     import: () => import('../raw/content-navigation.mjs').then(r => r.default || r),
-    meta: {"type":"application/json","etag":"\"272-mqg7JfaIPjykElSzLgFKS5z4um4\"","mtime":"2025-02-19T10:35:39.878Z"}
+    meta: {"type":"application/json","etag":"\"272-mqg7JfaIPjykElSzLgFKS5z4um4\"","mtime":"2025-02-19T11:34:40.743Z"}
   },
   ["nitro:bundled:cache:content:parsed:content:0.index.md"]: {
     import: () => import('../raw/0.index.mjs').then(r => r.default || r),
-    meta: {"type":"text/markdown; charset=utf-8","etag":"\"d05-eYrDoCQTlOtnn31mNUUgOCM5sZA\"","mtime":"2025-02-19T10:35:39.878Z"}
+    meta: {"type":"text/markdown; charset=utf-8","etag":"\"d05-eYrDoCQTlOtnn31mNUUgOCM5sZA\"","mtime":"2025-02-19T11:34:40.759Z"}
   },
   ["nitro:bundled:cache:content:parsed:content:1.introduction:1.getting-started.md"]: {
     import: () => import('../raw/1.getting-started.mjs').then(r => r.default || r),
-    meta: {"type":"text/markdown; charset=utf-8","etag":"\"2492-Nl0lVXO+DNcx8XceK03bonjCaAo\"","mtime":"2025-02-19T10:35:39.878Z"}
+    meta: {"type":"text/markdown; charset=utf-8","etag":"\"2492-Nl0lVXO+DNcx8XceK03bonjCaAo\"","mtime":"2025-02-19T11:34:40.759Z"}
   },
   ["nitro:bundled:cache:content:parsed:content:1.introduction:2.project-structure.md"]: {
     import: () => import('../raw/2.project-structure.mjs').then(r => r.default || r),
-    meta: {"type":"text/markdown; charset=utf-8","etag":"\"129f-nlFvoDRckQ/akNp5v5Esqp2E+vQ\"","mtime":"2025-02-19T10:35:39.878Z"}
+    meta: {"type":"text/markdown; charset=utf-8","etag":"\"129f-nlFvoDRckQ/akNp5v5Esqp2E+vQ\"","mtime":"2025-02-19T11:34:40.759Z"}
   },
   ["nitro:bundled:cache:content:parsed:content:1.introduction:3.writing-pages.md"]: {
     import: () => import('../raw/3.writing-pages.mjs').then(r => r.default || r),
-    meta: {"type":"text/markdown; charset=utf-8","etag":"\"3908-YTSE8S3kkpqTgDCBV/Pv6UZzzMc\"","mtime":"2025-02-19T10:35:39.878Z"}
+    meta: {"type":"text/markdown; charset=utf-8","etag":"\"3908-YTSE8S3kkpqTgDCBV/Pv6UZzzMc\"","mtime":"2025-02-19T11:34:40.759Z"}
   },
   ["nitro:bundled:cache:content:parsed:content:1.introduction:4.configuration.md"]: {
     import: () => import('../raw/4.configuration.mjs').then(r => r.default || r),
-    meta: {"type":"text/markdown; charset=utf-8","etag":"\"fd94-XE2NfjaKNSCysaMYLuuS6RuSIxg\"","mtime":"2025-02-19T10:35:39.878Z"}
+    meta: {"type":"text/markdown; charset=utf-8","etag":"\"fd94-XE2NfjaKNSCysaMYLuuS6RuSIxg\"","mtime":"2025-02-19T11:34:40.759Z"}
   },
   ["nitro:bundled:cache:content:parsed:content:1.introduction:_dir.yml"]: {
     import: () => import('../raw/_dir.mjs').then(r => r.default || r),
-    meta: {"type":"text/yaml; charset=utf-8","etag":"\"17e-XpFO862J9XNOgIl4J7FZF4I6CBE\"","mtime":"2025-02-19T10:35:39.878Z"}
+    meta: {"type":"text/yaml; charset=utf-8","etag":"\"17e-XpFO862J9XNOgIl4J7FZF4I6CBE\"","mtime":"2025-02-19T11:34:40.759Z"}
   },
   ["nitro:bundled:cache:content:parsed:content:2.api:1.components.md"]: {
     import: () => import('../raw/1.components.mjs').then(r => r.default || r),
-    meta: {"type":"text/markdown; charset=utf-8","etag":"\"11669-MLzYzAfKrRP1cKRqWfth2ZEoEes\"","mtime":"2025-02-19T10:35:39.878Z"}
+    meta: {"type":"text/markdown; charset=utf-8","etag":"\"11669-MLzYzAfKrRP1cKRqWfth2ZEoEes\"","mtime":"2025-02-19T11:34:40.759Z"}
   },
   ["nitro:bundled:cache:content:parsed:content:2.api:2.composables.md"]: {
     import: () => import('../raw/2.composables.mjs').then(r => r.default || r),
-    meta: {"type":"text/markdown; charset=utf-8","etag":"\"5ea6-3Q9oS/qw1pqBLE5urihugTeSXwA\"","mtime":"2025-02-19T10:35:39.878Z"}
+    meta: {"type":"text/markdown; charset=utf-8","etag":"\"5ea6-3Q9oS/qw1pqBLE5urihugTeSXwA\"","mtime":"2025-02-19T11:34:40.759Z"}
   },
   ["nitro:bundled:cache:content:parsed:content:2.api:3.layouts.md"]: {
     import: () => import('../raw/3.layouts.mjs').then(r => r.default || r),
-    meta: {"type":"text/markdown; charset=utf-8","etag":"\"21e9-jsR8YiDInwx+qVC6Lx5gYrzEl/o\"","mtime":"2025-02-19T10:35:39.878Z"}
+    meta: {"type":"text/markdown; charset=utf-8","etag":"\"21e9-jsR8YiDInwx+qVC6Lx5gYrzEl/o\"","mtime":"2025-02-19T11:34:40.759Z"}
   },
   ["nitro:bundled:cache:content:parsed:content:2.api:_dir.yml"]: {
     import: () => import('../raw/_dir2.mjs').then(r => r.default || r),
-    meta: {"type":"text/yaml; charset=utf-8","etag":"\"126-rmheFbZADhZ5q5m7SxgO7OWuZdg\"","mtime":"2025-02-19T10:35:39.878Z"}
+    meta: {"type":"text/yaml; charset=utf-8","etag":"\"126-rmheFbZADhZ5q5m7SxgO7OWuZdg\"","mtime":"2025-02-19T11:34:40.759Z"}
   }
 };
 
@@ -19448,7 +19448,7 @@ const handlers = [
   { route: '/api/_content/query/:qid/**:params', handler: _UKFr9d, lazy: false, middleware: false, method: "get" },
   { route: '/api/_content/query/:qid', handler: _UKFr9d, lazy: false, middleware: false, method: "get" },
   { route: '/api/_content/query', handler: _UKFr9d, lazy: false, middleware: false, method: "get" },
-  { route: '/api/_content/cache.1739961290301.json', handler: _XSf8Px, lazy: false, middleware: false, method: "get" },
+  { route: '/api/_content/cache.1739964830214.json', handler: _XSf8Px, lazy: false, middleware: false, method: "get" },
   { route: '/api/_content/navigation/:qid/**:params', handler: _loVefU, lazy: false, middleware: false, method: "get" },
   { route: '/api/_content/navigation/:qid', handler: _loVefU, lazy: false, middleware: false, method: "get" },
   { route: '/api/_content/navigation', handler: _loVefU, lazy: false, middleware: false, method: "get" },

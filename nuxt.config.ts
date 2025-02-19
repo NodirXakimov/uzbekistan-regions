@@ -1,5 +1,5 @@
 export default defineNuxtConfig({
-  // https://github.com/nuxt-themes/docus
+  ssr: true,
   extends: ['@nuxt-themes/docus'],
   devtools: { enabled: true },
 
@@ -8,8 +8,5 @@ export default defineNuxtConfig({
     // https://github.com/nuxt-modules/plausible
     '@nuxtjs/plausible'
   ],
-  compatibilityDate: '2024-10-24',
-  nitro: {
-    preset: "netlify"
-  }
+  compatibilityDate: '2024-10-24'
 })
